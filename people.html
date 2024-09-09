@@ -67,7 +67,14 @@
         .custom-text-large {
             font-size: 15px; 
   }
-
+    @media (max-width: 768px) {
+        .nav-pills {
+            flex-direction: column; /* Stack items vertically on smaller screens */
+        }
+        .nav-pills li {
+            margin: 5px 0; /* Add some vertical spacing between items */
+        }
+    }
     </style>
 </head>
 
