@@ -38,27 +38,86 @@
             min-height: 70px;     
         }
 
+        .navbar {
+    margin-bottom: 0;
+    border: none;
+    background-color: #fff;
+}
+
+        .navbar-brand {
+            padding: 5px 15px;
+        }
+        
+        .logo-img {
+            max-height: 40px;
+            width: auto;
+        }
+        
+        .navbar-nav > li > a {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        .index-image-container {
+            position: relative;
+            z-index: -1;
+        }
+        
+        .index-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        @media (max-width: 767px) {
+            .navbar-nav {
+                margin: 0 -15px;
+            }
+            
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            
+            .navbar-collapse {
+                background-color: #fff;
+            }
+        }
+
     </style>
 </head>
 
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-             <ul class="nav nav-pills">
-                <li role="presentation"><a href="index.html">          
-                    <img src="images/logo.png" style="max-height: 75px; margin-top: -22px; margin-bottom: -20px"></a></li>
-               
-                <li role="presentation" class="active"><a href="index.html" target="_self">Home</a></li>
-                <li role="presentation"><a href="people.html" target="_self">People</a></li>
-                <li role="presentation"><a href="publications.html" target="_self">Publications</a> </li>
-                <li role="presentation"><a href="courses.html" target="_self">Courses</a></li>
-                <li role="presentation"><a href="projects.html" target="_self">Projects</a></li>
-                <li role="presentation"><a href="activities.html" target="_self">Activities</a></li>
-                <li role="presentation"><a href="contact.html" target="_self">Contact</a></li>           
-                
-            </ul>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="people.html">People</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <img src="images/index.png" alt="Welcome Image" style="margin-top: -20px; max-width: 100%; height: auto;">
+    <div class="index-image-container">
+        <img src="images/index.png" alt="Welcome Image" class="index-image">
+    </div>
 
    
 <div class="container index">
