@@ -35,11 +35,13 @@
             font-size: 15px; 
         }
 
-        @media (max-width: 768px) {
+    @media (max-width: 768px) {
         .nav-pills {
-            flex-direction: column; /* Stack items vertically on smaller screens */
+            flex-wrap: wrap; /* Allow items to wrap */
         }
         .nav-pills li {
+            flex: 0 0 50%; /* Each item takes up 50% of the width, causing two items per row */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
             margin: 5px 0; /* Add some vertical spacing between items */
         }
     }
