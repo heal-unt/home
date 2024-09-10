@@ -43,15 +43,14 @@
     border: none;
     background-color: #fff;
 }
-
     @media (max-width: 768px) {
         .nav-pills {
             flex-wrap: wrap; /* Allow items to wrap */
         }
         .nav-pills li {
-            flex: 0 0 50%; /* Each item takes up 50% of the width, causing two items per row */
+            flex: 0 0 45%; /* Each item takes up about 45% of the width, allowing space for margins */
             box-sizing: border-box; /* Include padding and border in the element's total width and height */
-            margin: 5px 0; /* Add some vertical spacing between items */
+            margin: 5px 2.5%; /* Add some vertical spacing and even out horizontal spacing */
         }
     }
     </style>
