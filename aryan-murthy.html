@@ -36,16 +36,36 @@
         .custom-text-large {
             font-size: 15px; 
   }
-    @media (max-width: 768px) {
-        .nav-pills {
-            flex-wrap: wrap; /* Allow items to wrap */
+        @media (max-width: 768px) {
+            .card {
+                width: 100%; /* Full width on smaller screens */
+            }
         }
-        .nav-pills li {
-            flex: 0 0 45%; /* Each item takes up about 45% of the width, allowing space for margins */
-            box-sizing: border-box; /* Include padding and border in the element's total width and height */
-            margin: 5px 2.5%; /* Add some vertical spacing and even out horizontal spacing */
+        body {
+            text-align: center; 
         }
-    }
+
+        img {
+            display: block; 
+            margin: auto; 
+        }
+
+        h4 {
+        text-align: left;
+        }
+        img {
+            display: block; 
+            margin: auto; 
+        }
+        .nav-pills li a {
+            font-size: 20px; 
+            font-weight: bold; 
+            padding-top: 20px;
+            padding-bottom: 20px; 
+        }
+        .custom-text-large {
+            font-size: 15px; 
+  }
     </style>
 </head>
 
