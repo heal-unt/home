@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>HEAL - Capstone Projects</title>
+
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+
+<style>
+body {
+  padding-top: 90px;
+  font-family: Arial;
+}
+
+/* NAVBAR */
+.nav-pills li a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ✅ BANNER (SAME AS PROJECTS) */
+.banner-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container {
+  width: 85%;
+  max-width: 1100px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CARDS */
+.capstone-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.capstone-card:hover {
+  transform: translateY(-5px);
+}
+
+.capstone-card h3 {
+  font-size: 20px;
+  color: #006633;
+}
+
+.capstone-tag {
+  background: #e6f2e6;
+  color: #006633;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 3px;
+  display: inline-block;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <ul class="nav nav-pills">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="projects.html">Projects</a></li>
+
+      <!-- ACTIVE -->
+      <li class="active"><a href="capstone.html">Capstone</a></li>
+
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="hiso.html">HISO</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<!-- ✅ BANNER -->
+<div class="banner-wrapper">
+  <div class="banner-container">
+    <img src="images/capstone_banner.png" class="banner-img">
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+<h2><b>Capstone Projects</b></h2>
+<p>Student capstone projects applying AI, data science, and health informatics.</p>
+
+<div class="row">
+
+<div class="col-sm-4">
+<div class="capstone-card">
+<h3>Cardiometabolic Risk App</h3>
+<p>Predicts diabetes and heart disease using ML.</p>
+<span class="capstone-tag">ML</span>
+<span class="capstone-tag">Python</span>
+<span class="capstone-tag">SHAP</span>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="capstone-card">
+<h3>AI Emergency Triage</h3>
+<p>Predicts patient severity using clinical data.</p>
+<span class="capstone-tag">AI</span>
+<span class="capstone-tag">Healthcare</span>
+</div>
+</div>
+
+<div class="col-sm-4">
+<div class="capstone-card">
+<h3>SDOH Diabetes Model</h3>
+<p>Integrates social factors into risk prediction.</p>
+<span class="capstone-tag">SDOH</span>
+<span class="capstone-tag">AI</span>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
