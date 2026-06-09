@@ -9,55 +9,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+     -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Aisa Sakata - UNT Information Science" />
-    <meta name="keywords" content="Aisa Sakata" />
-    <meta name="Aisa Sakata" content="Aisa Sakata" />
- <title>Aisa Sakata - UNT Information Science</title>
+    <meta name="description" content="Yuhan Zhou - UNT Information Science" />
+    <meta name="keywords" content="Yuhan Zhou" />
+    <meta name="Yuhan Zhou" content="Yuhan Zhou" />
+    <!-- <link rel="stylesheet" type="text/css" href="variant-whitespace.css" media="all" /> -->
+    <title>Yuhan Zhou - UNT Information Science</title>
     
     <style>
-    /* WHOLE PAGE BACKGROUND ICONS - Health Informatics Complete */
-    .page-bg-icons {
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      z-index: 0;
-      overflow: hidden;
-    }
-    .page-bg-icons i {
-      position: absolute;
-      color: #1b7d34;
-      opacity: 0.10;
-      animation: floatBackground 15s ease-in-out infinite;
-    }
-    .page-bg-icons i:nth-child(1) { top: 8%; left: 5%; font-size: 56px; animation-delay: 0s; }
-    .page-bg-icons i:nth-child(2) { top: 15%; right: 8%; font-size: 48px; animation-delay: 1.5s; }
-    .page-bg-icons i:nth-child(3) { top: 32%; left: 8%; font-size: 52px; animation-delay: 3s; }
-    .page-bg-icons i:nth-child(4) { top: 42%; right: 6%; font-size: 50px; animation-delay: 4.5s; }
-    .page-bg-icons i:nth-child(5) { top: 68%; left: 10%; font-size: 54px; animation-delay: 6s; }
-    .page-bg-icons i:nth-child(6) { top: 80%; right: 12%; font-size: 48px; animation-delay: 7.5s; }
-    .page-bg-icons i:nth-child(7) { top: 25%; right: 45%; font-size: 50px; animation-delay: 9s; }
-    .page-bg-icons i:nth-child(8) { top: 85%; left: 50%; font-size: 46px; animation-delay: 10.5s; }
-    .page-bg-icons i:nth-child(9) { top: 18%; left: 40%; font-size: 52px; animation-delay: 1s; }
-    .page-bg-icons i:nth-child(10) { top: 55%; right: 35%; font-size: 48px; animation-delay: 2.5s; }
-    .page-bg-icons i:nth-child(11) { top: 52%; left: 45%; font-size: 50px; animation-delay: 5s; }
-    .page-bg-icons i:nth-child(12) { top: 72%; left: 65%; font-size: 54px; animation-delay: 8s; }
-    .page-bg-icons i:nth-child(13) { top: 12%; right: 20%; font-size: 46px; animation-delay: 11s; }
-    .page-bg-icons i:nth-child(14) { top: 60%; right: 50%; font-size: 52px; animation-delay: 12.5s; }
-    .page-bg-icons i:nth-child(15) { top: 38%; left: 25%; font-size: 48px; animation-delay: 13.5s; }
-    .page-bg-icons i:nth-child(16) { top: 90%; right: 25%; font-size: 50px; animation-delay: 14.5s; }
-    .page-bg-icons i:nth-child(17) { top: 5%; right: 55%; font-size: 52px; animation-delay: 0.5s; }
-    .page-bg-icons i:nth-child(18) { top: 48%; right: 18%; font-size: 50px; animation-delay: 2s; }
-    .page-bg-icons i:nth-child(19) { top: 75%; right: 42%; font-size: 48px; animation-delay: 4s; }
-    .page-bg-icons i:nth-child(20) { top: 35%; right: 65%; font-size: 54px; animation-delay: 6.5s; }
-    .page-bg-icons i:nth-child(21) { top: 62%; right: 8%; font-size: 50px; animation-delay: 9.5s; }
-    @keyframes floatBackground {
-      0% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-20px) rotate(3deg); }
-      100% { transform: translateY(0px) rotate(0deg); }
-    }
  .nav-pills li a {
             font-size: 20px; 
             font-weight: bold; 
@@ -82,31 +48,6 @@
 
 
 <body>
-  <!-- WHOLE PAGE BACKGROUND ICONS - Health Informatics Complete -->
-  <div class="page-bg-icons">
-    <i class="fa-solid fa-database"></i>
-    <i class="fa-solid fa-chart-line"></i>
-    <i class="fa-solid fa-code"></i>
-    <i class="fa-solid fa-server"></i>
-    <i class="fa-solid fa-chart-pie"></i>
-    <i class="fa-solid fa-heart-pulse"></i>
-    <i class="fa-solid fa-hospital"></i>
-    <i class="fa-solid fa-stethoscope"></i>
-    <i class="fa-solid fa-heart"></i>
-    <i class="fa-solid fa-syringe"></i>
-    <i class="fa-solid fa-ambulance"></i>
-    <i class="fa-solid fa-tooth"></i>
-    <i class="fa-solid fa-prescription-bottle-medical"></i>
-    <i class="fa-solid fa-pills"></i>
-    <i class="fa-solid fa-mortar-pestle"></i>
-    <i class="fa-solid fa-brain"></i>
-    <i class="fa-solid fa-microscope"></i>
-    <i class="fa-solid fa-flask"></i>
-    <i class="fa-solid fa-network-wired"></i>
-    <i class="fa-solid fa-shield-check"></i>
-    <i class="fa-solid fa-lightbulb"></i>
-    <i class="fa-solid fa-dna"></i>
-  </div>
     <div style="max-width: 1088px; margin: 0 auto;">
         <nav class="navbar navbar-default navbar-fixed-top" style="margin: 0 auto;">
             <ul class="nav nav-pills" style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding: 10px;">
@@ -140,33 +81,30 @@
         </nav>
         <img src="images/People.png" alt="Welcome Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </div>
-
 <div class="container index">
-      <div class="row" style="display: flex; align-items: center;">
+          <div class="row" style="display: flex; align-items: center;">
             <div class="col-sm-6 index-left" style="text-align: center;" >
-                <img src="images/Sakata-Aisa.jpeg" class="img-rounded" style="max-width: 60%;"/>
+                <img src="images/Yuhan.JPG" class="img-rounded" style="max-width: 60%;"/>
                 <p style="padding-top: 1rem;" >
                 </p>
-
             </div>
             <div class="col-sm-6 text-small index-right" style="text-align: center;">
                 <h1 class="text-center">
-                    Aisa Sakata
+                    Yuhan Zhou
                 </h1>
                 <p class="custom-text-large">
-                    <br>AisaSakata@my.unt.edu<br> 
+                    <br> yhzhou0515@gmail.com<br> 
                 </p>
                 <p class="custom-text-large">
-                    M.S. student <br> 
-                    University of North Texas<br> 
-                </p>
+                    Intern student <br> 
+                   <!-- <p class="custom-text-large">University of North Taxes<br> </p> --> 
+ </p>
+ <br>
                 <span class="navs"> 
-                    <a href="https://github.com/asakata0821" target="_self" class="custom-text-large">GitHub</a>
-                    <br>
                     <a href="publications.html" class="custom-text-large">Publications</a> /
                     <a href="people.html" target="_self" class="custom-text-large">Group</a> /
                     <a href="publications.html" target="_self" class="custom-text-large">Research</a>
-                    <br>                    
+
                 </span>
             </div>
             </div>
@@ -176,9 +114,10 @@
         <div class="row align-justify" id="bio">
             <div class="col-12">
             <p class="custom-text-large">
-                    Hello, I'm Aisa Sakata from Japan, currently pursuing a master's degree in Information Science at the University of North Texas. My research interests revolve around language models and their applications in areas like sentiment analysis, machine translation, and text summarization, aiming to enhance human-machine communication.
+                My research interests focus on text augmentation methods, NLP techniques, machine learning and deep learning models in LLM. I am also passionate about how information science can assist human affair. Welcome any discussion!
                 <p class="custom-text-large">          
-        </div>      
+        </div>
+        
         
     <br>
         <div class="row align-justify">
@@ -186,24 +125,53 @@
                 <h2>Education</h2>
                 <!-- <p class="custom-text-large">Text</p> -->
                 <ul> 
-                    <li><b>MS in Information Science</b></li>
-                    <li>University of North Texas, USA</li>
-                    <li><b>BA in Liberal Arts and Global Studies, 2017 - 2021</b></li>               
-                    <li>Nagoya University of Foreign Studies, Japan</li>
-
+                    <li><b>MS in Business Analytics, 2022-2023</b></li>
+                    <li>The University of Hong Kong, HK</li>
+                    <li><b>BS in Information Resource Management, 2018 - 2022</b></li>               
+                    <li>Zhejiang University, China</li>
                 </ul>
             </div>
         </div>
-    </div>
+
+
+        <br>
+        <div class="row align-justify">
+            <div class="col-12">
+                <h2>Publications</h2>
+                
+                <ul>
+                    <li>
+                        Wang, S., & <b>Zhou, Y.</b> (2022). Influencing Factors of Social Media Health Information Screening Ability and Its Improving of the Elderly.<em>Library and Information Service</em>, 66(24), 14-29.
+                    </li>
+                   </ul>
+            <li><b>Zhou, Y.</b>, Tu, F., Sha, K., Ding, J., & Chen, H. (2024). <a class="pub_title" href="https://arxiv.org/abs/2406.19614" target="_self">A Survey on Data Quality Dimensions and Tools for Machine Learning</a>. arXiv preprint arXiv:2406.19614.</li> 
+            </div>
+        </div>
+
+
+        <br>
+        <div class="row align-justify">
+            <div class="col-12">
+                <h2>Awards</h2>
+                <!-- <p class="custom-text-large">Text</p> -->
+                <ul>
+                    <li> ZJU Academic Progress Award 2019-2020</li>
+                    <li>ZJU Academic Excellence Award 2019-2020</li>
+                    <li>Zhejiang University Scholarship 2019-2020</li>
+                </ul>
+            </div>
+        </div>
+</div>
+</div>
+</div>
 </div>
 
-</div>
 
-</div>
+
     <footer class="footer" style="padding-top: 20px;">
     <div class="container">
         <div id="footer" style="text-align: center;">
-            <p class="custom-text-large"><span><a href="sakata-aisa.html">Back to top</a></span></div>
+            <p class="custom-text-large"><span><a href="yuhan-zhou.html">Back to top</a></span></div>
         </div>
     </div>
     </footer>

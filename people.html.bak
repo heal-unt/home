@@ -122,31 +122,6 @@
 </head>
 
 <body>
-  <!-- WHOLE PAGE BACKGROUND ICONS - Health Informatics Complete -->
-  <div class="page-bg-icons">
-    <i class="fa-solid fa-database"></i>
-    <i class="fa-solid fa-chart-line"></i>
-    <i class="fa-solid fa-code"></i>
-    <i class="fa-solid fa-server"></i>
-    <i class="fa-solid fa-chart-pie"></i>
-    <i class="fa-solid fa-heart-pulse"></i>
-    <i class="fa-solid fa-hospital"></i>
-    <i class="fa-solid fa-stethoscope"></i>
-    <i class="fa-solid fa-heart"></i>
-    <i class="fa-solid fa-syringe"></i>
-    <i class="fa-solid fa-ambulance"></i>
-    <i class="fa-solid fa-tooth"></i>
-    <i class="fa-solid fa-prescription-bottle-medical"></i>
-    <i class="fa-solid fa-pills"></i>
-    <i class="fa-solid fa-mortar-pestle"></i>
-    <i class="fa-solid fa-brain"></i>
-    <i class="fa-solid fa-microscope"></i>
-    <i class="fa-solid fa-flask"></i>
-    <i class="fa-solid fa-network-wired"></i>
-    <i class="fa-solid fa-shield-check"></i>
-    <i class="fa-solid fa-lightbulb"></i>
-    <i class="fa-solid fa-dna"></i>
-  </div>
     <div style="max-width: 1088px; margin: 0 auto;">
         <nav class="navbar navbar-default navbar-fixed-top" style="margin: 0 auto;">
             <ul class="nav nav-pills" style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding: 10px;">
@@ -505,31 +480,6 @@
 </head>
 
 <body>
-  <!-- WHOLE PAGE BACKGROUND ICONS - Health Informatics Complete -->
-  <div class="page-bg-icons">
-    <i class="fa-solid fa-database"></i>
-    <i class="fa-solid fa-chart-line"></i>
-    <i class="fa-solid fa-code"></i>
-    <i class="fa-solid fa-server"></i>
-    <i class="fa-solid fa-chart-pie"></i>
-    <i class="fa-solid fa-heart-pulse"></i>
-    <i class="fa-solid fa-hospital"></i>
-    <i class="fa-solid fa-stethoscope"></i>
-    <i class="fa-solid fa-heart"></i>
-    <i class="fa-solid fa-syringe"></i>
-    <i class="fa-solid fa-ambulance"></i>
-    <i class="fa-solid fa-tooth"></i>
-    <i class="fa-solid fa-prescription-bottle-medical"></i>
-    <i class="fa-solid fa-pills"></i>
-    <i class="fa-solid fa-mortar-pestle"></i>
-    <i class="fa-solid fa-brain"></i>
-    <i class="fa-solid fa-microscope"></i>
-    <i class="fa-solid fa-flask"></i>
-    <i class="fa-solid fa-network-wired"></i>
-    <i class="fa-solid fa-shield-check"></i>
-    <i class="fa-solid fa-lightbulb"></i>
-    <i class="fa-solid fa-dna"></i>
-  </div>
     <div style="max-width: 1088px; margin: 0 auto;">
         <nav class="navbar navbar-default navbar-fixed-top" style="margin: 0 auto;">
             <ul class="nav nav-pills" style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding: 10px;">
