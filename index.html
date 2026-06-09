@@ -47,7 +47,7 @@
       z-index: 2;
     }
 
-    /* WHOLE PAGE BACKGROUND ICONS */
+    /* WHOLE PAGE BACKGROUND ICONS - Enhanced Design */
     .page-bg-icons {
       position: fixed;
       inset: 0;
@@ -58,56 +58,70 @@
 
     .page-bg-icons i {
       position: absolute;
-      color: #2e7d32;
-      opacity: 0.12;
-      animation: floatBackground 18s ease-in-out infinite;
+      color: #1b7d34;
+      opacity: 0.10;
+      animation: floatBackground 15s ease-in-out infinite;
     }
 
     .page-bg-icons i:nth-child(1) {
-      top: 10%;
-      left: 6%;
-      font-size: 42px;
+      top: 8%;
+      left: 5%;
+      font-size: 56px;
       animation-delay: 0s;
     }
 
     .page-bg-icons i:nth-child(2) {
-      top: 22%;
-      right: 8%;
+      top: 20%;
+      right: 10%;
       font-size: 48px;
-      animation-delay: 2s;
+      animation-delay: 1.5s;
     }
 
     .page-bg-icons i:nth-child(3) {
-      top: 42%;
-      left: 10%;
-      font-size: 38px;
-      animation-delay: 4s;
+      top: 35%;
+      left: 8%;
+      font-size: 52px;
+      animation-delay: 3s;
     }
 
     .page-bg-icons i:nth-child(4) {
-      top: 58%;
-      right: 12%;
+      top: 50%;
+      right: 7%;
       font-size: 50px;
-      animation-delay: 6s;
+      animation-delay: 4.5s;
     }
 
     .page-bg-icons i:nth-child(5) {
-      top: 78%;
-      left: 14%;
-      font-size: 44px;
-      animation-delay: 8s;
+      top: 65%;
+      left: 12%;
+      font-size: 54px;
+      animation-delay: 6s;
     }
 
     .page-bg-icons i:nth-child(6) {
-      top: 85%;
-      right: 6%;
-      font-size: 40px;
-      animation-delay: 10s;
+      top: 75%;
+      right: 14%;
+      font-size: 48px;
+      animation-delay: 7.5s;
+    }
+
+    .page-bg-icons i:nth-child(7) {
+      top: 40%;
+      left: 88%;
+      font-size: 50px;
+      animation-delay: 9s;
+    }
+
+    .page-bg-icons i:nth-child(8) {
+      top: 82%;
+      left: 85%;
+      font-size: 46px;
+      animation-delay: 10.5s;
     }
 
     @keyframes floatBackground {
       0%   { transform: translateY(0px) rotate(0deg); }
-      50%  { transform: translateY(-16px) rotate(4deg); }
+      50%  { transform: translateY(-20px) rotate(3deg); }
       100% { transform: translateY(0px) rotate(0deg); }
     }
 
@@ -135,6 +149,13 @@
       font-weight: bold;
       padding: 14px 16px;
       border-radius: 10px;
+      color: #4B5563;
+    }
+
+    .nav-pills > li.active > a,
+    .nav-pills > li > a:hover {
+      background-color: #1b7d34;
+      color: #FFFFFF;
     }
 
     .hero-slider {
@@ -225,12 +246,13 @@
       font-weight: 800;
       margin-bottom: 18px;
       margin-top: 0;
+      color: #0d5c2e;
     }
 
     .lead-text {
       font-size: 16px;
       line-height: 1.8;
-      color: #222;
+      color: #1F2937;
       margin-bottom: 16px;
     }
 
@@ -265,12 +287,13 @@
       font-weight: 800;
       margin-top: 0;
       margin-bottom: 12px;
+      color: #0d5c2e;
     }
 
     .feature-card p {
       font-size: 15px;
       line-height: 1.7;
-      color: #333;
+      color: #4B5563;
     }
 
     .news-slider {
@@ -278,12 +301,13 @@
     }
 
     .news-slide-box {
-  background: rgba(215, 232, 210, 0.96);
+  background: rgba(229, 237, 227, 0.95);
   border-radius: 14px;
   padding: 28px 50px;
   min-height: 280px;
   margin: 0;
   box-sizing: border-box;
+  border: 1px solid rgba(27, 125, 52, 0.2);
 }
 .news-slider .slick-list {
   overflow: hidden !important;
@@ -320,6 +344,7 @@
       font-weight: 800;
       margin-top: 0;
       margin-bottom: 16px;
+      color: #0d5c2e;
     }
 
     .news-slide-box p {
@@ -438,14 +463,16 @@
 
 <body>
 
-  <!-- WHOLE PAGE BACKGROUND ICONS -->
+  <!-- WHOLE PAGE BACKGROUND ICONS - Enhanced for HEAL Lab -->
   <div class="page-bg-icons">
-    <i class="fa-solid fa-tooth"></i>
-    <i class="fa-solid fa-capsules"></i>
-    <i class="fa-solid fa-dna"></i>
+    <i class="fa-solid fa-database"></i>
     <i class="fa-solid fa-brain"></i>
-    <i class="fa-solid fa-hospital"></i>
-    <i class="fa-solid fa-stethoscope"></i>
+    <i class="fa-solid fa-chart-line"></i>
+    <i class="fa-solid fa-microscope"></i>
+    <i class="fa-solid fa-network-wired"></i>
+    <i class="fa-solid fa-flask"></i>
+    <i class="fa-solid fa-shield-check"></i>
+    <i class="fa-solid fa-lightbulb"></i>
   </div>
 
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -473,11 +500,11 @@
         <div class="hero-overlay"></div>
 
         <div class="hero-icons">
-          <i class="fa-solid fa-tooth"></i>
-          <i class="fa-solid fa-capsules"></i>
-          <i class="fa-solid fa-dna"></i>
+          <i class="fa-solid fa-database"></i>
           <i class="fa-solid fa-brain"></i>
-          <i class="fa-solid fa-hospital"></i>
+          <i class="fa-solid fa-chart-line"></i>
+          <i class="fa-solid fa-shield-check"></i>
+          <i class="fa-solid fa-network-wired"></i>
         </div>
 
         <div class="hero-content">
@@ -491,11 +518,11 @@
         <div class="hero-overlay"></div>
 
         <div class="hero-icons">
-          <i class="fa-solid fa-tooth"></i>
-          <i class="fa-solid fa-capsules"></i>
-          <i class="fa-solid fa-dna"></i>
+          <i class="fa-solid fa-database"></i>
           <i class="fa-solid fa-brain"></i>
-          <i class="fa-solid fa-hospital"></i>
+          <i class="fa-solid fa-chart-line"></i>
+          <i class="fa-solid fa-shield-check"></i>
+          <i class="fa-solid fa-network-wired"></i>
         </div>
 
         <div class="hero-content">
@@ -509,11 +536,11 @@
         <div class="hero-overlay"></div>
 
         <div class="hero-icons">
-          <i class="fa-solid fa-tooth"></i>
-          <i class="fa-solid fa-capsules"></i>
-          <i class="fa-solid fa-dna"></i>
+          <i class="fa-solid fa-database"></i>
           <i class="fa-solid fa-brain"></i>
-          <i class="fa-solid fa-hospital"></i>
+          <i class="fa-solid fa-chart-line"></i>
+          <i class="fa-solid fa-shield-check"></i>
+          <i class="fa-solid fa-network-wired"></i>
         </div>
 
         <div class="hero-content">
@@ -652,7 +679,7 @@
 
       $('.news-slider').slick({
   dots: true,
-  arrows: true,
+  arrows: false,
   infinite: true,
   autoplay: true,
   autoplaySpeed: 4500,

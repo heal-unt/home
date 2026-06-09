@@ -24,7 +24,7 @@ img{max-width:100%;}
 /*end reset*/
 body{
 	font-family: 'Ubuntu', sans-serif;
-	background:#fffed4;
+	background:#FFFFFF;
 }
 .wrap{
 	width:80%;
@@ -57,13 +57,13 @@ body{
 	display: inline-block;
 }
 #nav .current a,.cssmenu > ul > li a:hover {
-	color:#64a8d6;
+	color:#1b7d34;
 }
 .cssmenu li:first-child  a {
 	margin-left:0;
 }
 .cssmenu li  a {
-	color:#878787;
+	color:#4B5563;
 	display: block;
 	margin:0px 20px;
 	font-size:15px;
@@ -112,14 +112,15 @@ body{
 
 .card {
 	/* Add shadows to create the "card" effect */
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12);
 	transition: 0.3s;
-	background-color: #FFB6C1;
+	background-color: #FFFFFF;
+	border: 1px solid #E5E7EB;
   }
-  
+
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
   
   /* Add some padding inside the card container */
@@ -179,7 +180,7 @@ body{
 	position:relative;
 }
 .features h2{
-	color:#2d394c;
+	color:#0d5c2e;
 	font-size:40px;
 	text-transform:uppercase;
 	font-weight:500;
@@ -197,14 +198,14 @@ body{
 	margin-top:20px;
 }
 .heading h3 {
-	color:#646464;
+	color:#0d5c2e;
 	font-size:22px;
 }
 .features-list p{
 	font-size:15px;
 	font-weight:100;
-    color:#9499a2;
-    line-height:1.6em;	
+    color:#4B5563;
+    line-height:1.6em;
 }
 .features-list li{
 	padding:10px 0;
@@ -295,14 +296,14 @@ body{
 
 
 .content-middle h2 {
-	color: #2d394c;
+	color: #0d5c2e;
 	font-size: 40px;
 	text-transform: uppercase;
 	padding-bottom: 2em;
 	text-align: center;
 }
 .testimonials p{
-	color:#787878;
+	color:#4B5563;
 	font-size:16px;
 	font-weight: 100;
 	line-height: 1.8em;
@@ -310,7 +311,7 @@ body{
 }
 .testimonials h3{
 	font-size:28px;
-	color:#2d394c;
+	color:#0d5c2e;
 	margin:0.5em 0;
 }
 .testimonials h3 span img{
@@ -325,7 +326,7 @@ body{
 	padding:8% 0;
 }
 .contact h2 {
-	color:#2d394c;
+	color:#0d5c2e;
 	font-size:40px;
 	margin-bottom:1em;
 	text-align:center;
@@ -348,11 +349,11 @@ body{
 	padding:20px 15px;
 	width:68%;
 	margin:0;
-	border:1px solid rgba(0, 0, 0, 0.12);
+	border:1px solid #E5E7EB;
 	background:#FFF url("../images/email-icon.png") no-repeat 22px 16px;
 	padding-left:9%;
 	font-size:20px;
-	color:#9E9E9E;
+	color:#4B5563;
 	outline:none;
 	font-family:'Ubuntu', sans-serif;
 	border-radius:2px;
@@ -362,10 +363,11 @@ body{
 	float:left;
 }
 .contact-form input[type="text"]:focus {
-	border:1px solid rgba(0, 0, 0, 0.26);
+	border:1px solid #1b7d34;
+	outline: 2px solid rgba(27, 125, 52, 0.2);
 }
 .contact-form input[type="submit"]{
-	  background: #77c344;
+	  background: #1b7d34;
 	  display: inline-block;
 	  border:none;
 	  padding:24px 45px;
@@ -391,12 +393,12 @@ body{
        float:right;
 }
 .contact-form input[type="submit"]:hover{
-	    background:#68B534;
+	    background:#0d5c2e;
 }
 .footer-bottom{
 	padding:2em 0;
-	background:#f9f9f9;
-	border-top:1px solid #EBEBEB;
+	background:#F9FAFB;
+	border-top:1px solid #E5E7EB;
 }
 .footer-btm-left {
   float:left;	
@@ -413,11 +415,11 @@ body{
 .footer-btm-right li a{
 	font-size:0.85em;
 	font-weight:100;
-	color:#4d5664;
+	color:#4B5563;
 	margin:0 10px;
 }
 .footer-btm-right li a:hover{
-	color:#64a4d7;
+	color:#0d5c2e;
 }
 .footer-btm-right li:first-child a{
 	margin-left:0;
@@ -453,17 +455,17 @@ body{
 	text-align:right;
 }
 .copy p{
-	color:#8A8A8A;
+	color:#4B5563;
 	font-size:14px;
 	font-weight:100;
 	line-height: 1.8em;
 }
 .copy p a{
-	color:#006400;
+	color:#1b7d34;
 	font-weight:bold;
 }
 .copy p a:hover{
-	color:#1E2024;
+	color:#0d5c2e;
 	text-decoration:underline;
 }
 

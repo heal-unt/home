@@ -1,8 +1,9 @@
-a {color:#008000; font-weight:400; text-decoration:none;}
-a:hover {color:#006400; text-decoration:none;}
+a {color:#0369A1; font-weight:400; text-decoration:none;}
+a:hover {color:#0d5c2e; text-decoration:none;}
 body {
     font-size: 0.9rem;
     line-height: 1.7;
+    background: #FFFFFF;
 }
 
 .text-small {
@@ -34,13 +35,13 @@ body {
 /* publication page color schema */
 
 .pubs a {
-    color: #0055aa;
+    color: #0369A1;
     text-decoration: none;
     background-color: transparent;
   }
-  
+
   .pubs a:hover {
-    color: #013e7c;
+    color: #0d5c2e;
     text-decoration: underline;
   }
   ul {
@@ -67,39 +68,39 @@ a.label:hover{
 }
 
 a.label.code{
-    background-color: #007bff;
-    border-color: #286090;
+    background-color: #0369A1;
+    border-color: #0369A1;
 }
     a.label.code:hover{
-        background-color:#007bff;
-        border-color: #286090;
+        background-color:#0d5c2e;
+        border-color: #0d5c2e;
     }
 
 a.label.project{
-    background-color: #f0ad4e;
-    border-color: #eea236;
+    background-color: #FB8500;
+    border-color: #FB8500;
 }
 a.label.project:hover{
-    background-color: #ec971f;
-    border-color: #d58512;
+    background-color: #EA7315;
+    border-color: #EA7315;
 }
 
 a.label.misc{
-    background-color: #5bc0de;
-      border-color: #46b8da;
+    background-color: #06B6D4;
+      border-color: #06B6D4;
 }
 a.label.misc:hover{
-    background-color: #31b0d5;
-    border-color: #269abc;
+    background-color: #0891B2;
+    border-color: #0891B2;
 }
 
 a.label.blog{
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+    background-color: #059669;
+    border-color: #059669;
 }
 a.label.blog:hover{
-    background-color: #449d44;
-    border-color: #255625;
+    background-color: #047857;
+    border-color: #047857;
 }
 
 [v-cloak] { display:none; }
