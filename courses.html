@@ -133,8 +133,24 @@
             padding-bottom: 20px; 
         }
         .custom-text-large {
-            font-size: 15px; 
+            font-size: 15px;
   }
+
+    /* BANNER */
+    .banner-wrapper {
+      margin-top: 8px;
+      border-radius: 14px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      display: block;
+    }
+
     </style>
 </head>
 
@@ -191,15 +207,23 @@
                 <li role="presentation" style="margin: 0 10px;">
                     <a href="activities.html" target="_self">Activities</a>
                  </li>
-                <li role="presentation" class="active" style="margin: 0 10px;">
+                <li role="presentation" style="margin: 0 10px;">
                     <a href="hiso.html" target="_self">HISO</a>
+                </li>
+                <li role="presentation" style="margin: 0 10px;">
+                    <a href="career.html" target="_self">Career</a>
+                </li>
+                <li role="presentation" style="margin: 0 10px;">
+                    <a href="capstone.html" target="_self">Capstone</a>
                 </li>
                 <li role="presentation" style="margin: 0 10px;">
                     <a href="contact.html" target="_self">Contact</a>
                 </li>
             </ul>
         </nav>
-        <img src="images/course_banner.png" alt="Welcome Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+        <div class="banner-wrapper" style="max-width: 1088px; margin: 0 auto;">
+          <img src="images/course_banner.png" alt="Courses Banner" class="banner-img">
+        </div>
     </div>
 
 <div class="container index">

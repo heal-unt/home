@@ -88,54 +88,20 @@
             padding: 16px;
             font-size: 15px; 
         }
-        .banner-wrapper {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-}
 
+/* BANNER */
 .banner-wrapper {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-}
-.banner-wrapper {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-/* NEW CONTAINER */
-.banner-container {
-  width: 85%;
-  max-width: 1100px;
-  height: 260px;
-  position: relative;
+  margin-top: 8px;
+  border-radius: 14px;
   overflow: hidden;
-  border-radius: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* BLUR BACKGROUND */
-.banner-container::before {
-  content: "";
-  position: absolute;
-  width: 120%;
-  height: 120%;
-  background: url("images/People_Banner.png") center/cover no-repeat;
-  filter: blur(20px) brightness(0.7);
-  z-index: 1;
-}
-
-/* MAIN IMAGE */
-.banner-img {
   position: relative;
-  z-index: 2;
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+}
+
+.banner-img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
 }
         /* Additional styles for responsiveness */
         @media (max-width: 768px) {
@@ -237,16 +203,18 @@
 </li>
 
 <li role="presentation" style="margin: 0 10px;">
+    <a href="capstone.html" target="_self">Capstone</a>
+</li>
+
+<li role="presentation" style="margin: 0 10px;">
     <a href="contact.html" target="_self">Contact</a>
 </li>
                 
             </ul>
         </nav>
-      <div class="banner-wrapper">
-  <div class="banner-container">
-    <img src="images/png" class="banner-img">
-  </div>
-</div>
+      <div class="banner-wrapper" style="max-width: 1088px; margin: 0 auto;">
+        <img src="images/People_Banner.png" alt="People Banner" class="banner-img">
+      </div>
 
 <div class="container index">
     <div class="row align-justify">
